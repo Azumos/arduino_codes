@@ -1,12 +1,12 @@
 #include <Servo.h>
 
 // Declare constants
-const unsigned int SERVO_PIN = 3;
-const unsigned int LIGHT_LOW = 0;
-const unsigned int LIGHT_HIGH = 680;
-const unsigned int SERVO_LOW = 0;
-const unsigned int SERVO_HIGH = 180;
-const unsigned int CLASSES_COUNT = 100;
+#define SERVO_PIN 3
+#define LIGHT_LOW 0
+#define LIGHT_HIGH 670
+#define SERVO_LOW 0
+#define SERVO_HIGH 180
+#define CLASSES_COUNT 100
 
 const unsigned int LIGHT_STEP = (LIGHT_HIGH - LIGHT_LOW)/CLASSES_COUNT;
 const unsigned int SERVO_STEP = (SERVO_HIGH - SERVO_LOW)/CLASSES_COUNT;
