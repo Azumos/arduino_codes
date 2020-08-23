@@ -3,7 +3,7 @@
 // Declare constants
 const unsigned int SERVO_PIN = 3;
 const unsigned int LIGHT_LOW = 0;
-const unsigned int LIGHT_HIGH = 670;
+const unsigned int LIGHT_HIGH = 680;
 const unsigned int SERVO_LOW = 0;
 const unsigned int SERVO_HIGH = 180;
 const unsigned int CLASSES_COUNT = 100;
